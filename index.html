@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <nav class="container nav">
+                <a href="" class="nav-brand"><img src="./img/navbar-logo.svg" alt=""></a>
+                <ul id="menu">
+                    <li><a href="" class="nav-link">SERVICES</a></li>
+                    <li><a href="" class="nav-link">PORTFOLIO</a></li>
+                    <li><a href="" class="nav-link">ABOUT</a></li>
+                    <li><a href="" class="nav-link">TEAM</a></li>
+                    <li><a href="" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h3>Welcome To Our Studio!</h3>
+            <h1>IT'S NICE TO MEET YOU</h1>
+            <a href="" class="btn">Tell me more</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="services">
+                <div class="row">
+                    <div class="text">
+                        <h2>SERVICES</h2>
+                        <br>
+                        <p class="txtgrey">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-shopping-cart"></i></div>
+                        <br>
+                        <h4>E-Commerce</h4>
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo mollitia temporibus architecto
+                            at deserunt quos, doloribus ipsam repellat perferendis dolore?</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-laptop"></i></div>
+                        <br>
+                        <h4>Responsive Design</h4>
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo mollitia temporibus architecto
+                            at deserunt quos, doloribus ipsam repellat perferendis dolore?</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-shopping-bag"></i></div>
+                        <br>
+                        <h4>Web Security</h4>
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo mollitia temporibus architecto
+                            at deserunt quos, doloribus ipsam repellat perferendis dolore?</p>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="text">
+                    <h2>PORTFOLIO</h2>
+                    <br>
+                    <p class="txtgrey">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <br>
+                <div class="row">
+                    <article class="col-4 vis">
+                        <div class="img"><img src="./img/1.jpg" alt="" /></div>
+                        <div class="hiden">
+                            <p class="plus">+</p>
+                        </div>
+                        <h4>Threads</h4>
+                        <p>Illustration</p>
+                    </article>
+                    <article class="col-4 vis">
+                        <div class="img"><img src="./img/2.jpg" alt="" /></div>
+                        <div class="hiden">
+                            <p class="plus">+</p>
+                        </div>
+                        <h4>Explore</h4>
+                        <p>Graphic Design</p>
+                    </article>
+                    <article class="col-4 vis">
+                        <div class="img"><img src="./img/3.jpg" alt="" /></div>
+                        <div class="hiden">
+                            <p class="plus">+</p>
+                        </div>
+                        <h4>Finish</h4>
+                        <p>Identity</p>
+                    </article>
+                </div>
+                <div class="row">
+                    <article class="col-4 vis">
+                        <div class="img"><img src="./img/4.jpg" alt="" /></div>
+                        <div class="hiden">
+                            <p class="plus">+</p>
+                        </div>
+                        <h4>Lines</h4>
+                        <p>Branding</p>
+                    </article>
+                    <article class="col-4 vis">
+                        <div class="img"><img src="./img/5.jpg" alt="" /></div>
+                        <div class="hiden">
+                            <p class="plus">+</p>
+                        </div>
+                        <h4>Southwest</h4>
+                        <p>Website Design</p>
+                    </article>
+                    <article class="col-4 vis">
+                        <div class="img"><img src="./img/6.jpg" alt="" /></div>
+                        <div class="hiden">
+                            <p class="plus">+</p>
+                        </div>
+                        <h4>Window</h4>
+                        <p>Photography</p>
+                    </article>
+                </div>
+            </section>
+            <section id="about">
+                <div class="text">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
+    <script>
+        window.onscroll = () => {
+            const nav = document.querySelector('#navbar');
+            if (this.scrollY <= 10) nav.className = ''; else nav.className = 'sticky';
+        };
+    </script>
+</body>
+
+</html>
